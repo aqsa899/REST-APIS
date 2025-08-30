@@ -1,0 +1,51 @@
+# Visual Studio
+.vs/
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+TestResults/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+*.psmdcp
+*.ps1
+.project.lock.json
+
+# Entity Framework
+Migrations/
+
+# Configuration
+appsettings.Development.json
+appsettings.Local.json
+
+# Publish
+*.pubxml
+*.publishsettings
+
+# Others
+*.tmp
+*.temp
+*.dbmdl
+*.bak
+*.mdf
+*.ldf
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Docker
+docker-compose.override.yml
+.env
